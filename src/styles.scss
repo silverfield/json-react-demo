@@ -1,0 +1,45 @@
+.box {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.folder {
+    background-color: cadetblue;
+    padding: 5px;
+}
+
+.folder-content {
+    max-height: 1000px;
+
+    &.collapsed {
+        max-height: 0px;
+        overflow: hidden;
+    }
+}
+
+.dataset {
+    background-color: darksalmon;
+    padding: 5px;
+}
+
+.key {
+    font-weight: bold;
+}
+
+.name {
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+        color: yellow;
+    }
+}
+
+.data_owner {
+    font-style: italic;
+}
+
+.desc {
+    font-style: italic;
+}
