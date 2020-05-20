@@ -1,0 +1,35 @@
+.box {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.folder {
+    background-color: cadetblue;
+    padding: 5px;
+}
+
+.dataset {
+    background-color: darksalmon;
+    padding: 5px;
+}
+
+.key {
+    font-weight: bold;
+}
+
+.name {
+    font-size: 1.3em;
+    font-weight: bold;
+
+    &:hover {
+        
+    }
+}
+
+.data_owner {
+    font-style: italic;
+}
+
+.desc {
+    font-style: italic;
+}
